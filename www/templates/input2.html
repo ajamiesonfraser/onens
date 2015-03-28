@@ -1,29 +1,19 @@
-<ion-view view-title="APP-Name">
+<ion-view view-title="Question 2">
     <ion-content
             padding="false"
             has-tabs="true"
             has-header="true"
             >
+        <div class="list card" style="margin-top: 100px; padding:10px;">
+            <h4>
+                Hey {{name1}}, every business starts with a good idea.
+            </h4>
+        </div>
         <div class="list list-inset">
             <label class="item item-input">
-                <input type="text" placeholder="mah mah" ng-model="data.name">
+                <input type="text" placeholder="What is your idea?" ng-model="data.question1">
             </label>
-            <label class="item item-input">
-                <input type="text" placeholder="mah mah" ng-model="data.type">
-            </label>
-            <label class="item item-input">
-                <input type="text" placeholder="mah mah" ng-model="data.venue">
-            </label>
-            <label class="item item-input">
-                <input type="text" placeholder="mah mah" ng-model="data.location">
-            </label>
-            <label class="item item-input">
-                <input type="text" placeholder="mah mah" ng-model="data.date">
-            </label>
-            <label class="item item-input">
-                <input type="text" placeholder="mah mah" ng-model="data.eventimg">
-            </label>
-            <button  class="button button-block button-calm" ng-click="input2Submit()">Submit</button>
+            <button  class="button button-block button-calm" ng-click="input2Submit()">Next Question!</button>
         </div>
     </ion-content>
 </ion-view>

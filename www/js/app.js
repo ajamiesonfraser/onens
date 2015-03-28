@@ -71,8 +71,79 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         controller: 'Input4Ctrl'
       }
     }
-  });
-
+  })
+      .state('tab.input5', {
+        url: '/input5',
+        views:{
+          'tab-input1': {
+            templateUrl: 'templates/input5.html',
+            controller: 'Input5Ctrl'
+          }
+        }
+      })
+      .state('tab.input6', {
+        url: '/input6',
+        views:{
+          'tab-input1': {
+            templateUrl: 'templates/input6.html',
+            controller: 'Input6Ctrl'
+          }
+        }
+      })
+      .state('tab.input7', {
+        url: '/input7',
+        views:{
+          'tab-input1': {
+            templateUrl: 'templates/input7.html',
+            controller: 'Input7Ctrl'
+          }
+        }
+      })
+      .state('tab.input8', {
+        url: '/input8',
+        views:{
+          'tab-input1': {
+            templateUrl: 'templates/input8.html',
+            controller: 'Input8Ctrl'
+          }
+        }
+      })
+      .state('tab.input9', {
+        url: '/input9',
+        views:{
+          'tab-input1': {
+            templateUrl: 'templates/input9.html',
+            controller: 'Input9Ctrl'
+          }
+        }
+      })
+      .state('tab.input10', {
+        url: '/input10',
+        views:{
+          'tab-input1': {
+            templateUrl: 'templates/input10.html',
+            controller: 'Input10Ctrl'
+          }
+        }
+      })
+      .state('tab.input11', {
+        url: '/input11',
+        views:{
+          'tab-input1': {
+            templateUrl: 'templates/input11.html',
+            controller: 'Input11Ctrl'
+          }
+        }
+      })
+      .state('tab.output', {
+        url: '/output',
+        views:{
+          'tab-input1': {
+            templateUrl: 'templates/output.html',
+            controller: 'OutputCtrl'
+          }
+        }
+      });
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/input1');
